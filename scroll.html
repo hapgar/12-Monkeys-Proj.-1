@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>12 Monkeys</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css" integrity="sha256-3IkGqGYOvq1Ype2MXFwVJFeBtBACgiveho3SacOEEP8=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<body>
+  <video autoplay muted loop id="matrix">
+    <source src="matrix2.mp4" type="video/mp4">
+  </video>
+    <main>
+
+      <div id="fullpage">
+
+            <div class="section s1">
+                <h1>Story</h1>
+            </div>
+
+            <div class="section s2">
+                <h1>Cast</h1>
+            </div>
+
+            <div class="section s3">
+                <h1>Technology</h1>
+            </div>
+
+            <div class="section s4">
+                <h1>Neo Noir</h1>
+            </div>
+
+      </div>
+
+    </main>
+
+<!--Full Page Scroll JS-->
+    <script type="text/javascript" src="../dist/fullpage.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js" integrity="sha256-e13jRNqOX98m6UAwI/yZTpcDseJtA8s86yfFs4Sqrv8=" crossorigin="anonymous"></script>
+    <script>
+
+      new fullpage('#fullpage', {
+          autoScrolling: true,
+          navigation: true,
+          navigationPosition: 'left',
+          navigationTooltips: ['Story', 'Cast', 'Technology', 'Neo Noir',]
+      })
+
+    </script>
+
+</body>
+</html>

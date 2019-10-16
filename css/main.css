@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+
+#matrix {
+  position: fixed;
+  top: 20px;
+  right: 1px;
+  left: 1px;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body{
+  background-color: black;
+}
+
+/*Typefaces*/
+
+@font-face:{
+    font-family: "Neue Machina";
+    src: url(../fonts/neuemachina-light-webfont.woff) format('woff'),
+         url(../fonts/neuemachina-light-webfont.woff2) format('woff2'),
+         url(../fonts/neuemachina-light-webfont.ttf) format('truetype');
+}
+
+
+/* Homepage Nav */
+
+.wrapper {
+  color: black;
+  background-size: cover;
+  max-width: 900px;
+  margin: 250px auto;
+}
+
+div .landing {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+  /*border: 1px solid red;*/
+}
+
+/*Button Styling*/
+
+.buttonwrap {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    font-family: "Neue Machina";
+    font-weight: 800;
+}
+  a.glow{
+  position: relative;
+  top: -85px;
+  display: inline-block;
+  padding: 10px 16px 6px 20px;
+  color: #ff4d4d;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 18px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+a:hover{
+  color: black;
+  background: #ff4d4d;
+  box-shadow: 0 0 10px #ff4d4d, 0 0 20px #ff4d4d, 0 0 400px #ff4d4d;
+  transition-delay: 1s;
+}
+a span {
+  position: absolute;
+  display: block;
+}
+a span:nth-child(1)
+{
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#ff4d4d);
+}
+a:hover span:nth-child(1)
+{
+  left: 100%;
+  transition: 1s;
+}
+a span:nth-child(3)
+{
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#ff4d4d);
+}
+a:hover span:nth-child(3)
+{
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+a span:nth-child(2)
+{
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#ff4d4d);
+}
+a:hover span:nth-child(2)
+{
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+a span:nth-child(4)
+{
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#ff4d4d);
+}
+a:hover span:nth-child(4)
+{
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+/* Heading Styles Scroll*/
+
+h1{
+  font-family: "Neue Machina";
+  text-align: center;
+  color: #ff4d4d;
+  font-weight: 400;
+  font-size: 100px;
+}
+
+/* Heading Styles Landing*/
+
+h2{
+  font-family: "Neue Machina";
+  text-align: center;
+  color: #ff4d4d;
+  font-weight: 600;
+  font-size: 100px;
+}
+
+
+/*Section Styling*/
+
+
+.s1 {
+  background-color: black;
+  background-size: cover;
+}
+
+.s2 {
+  background-color: black;
+  background-size: cover;
+}
+
+.s3 {
+  background-color: black;
+  background-size: cover;
+}
+
+.s4 {
+  background-color: black;
+  background-size: cover;
+}
+
+.s5 {
+  background-color: black;
+  background-size: cover;
+}
+
+/*Nav Styling*/
+
+span {
+  background: #ff4d4d !important;
+  font-family: "VG5000";
+}
+
+
+element.style {
+}
+#fp-nav ul li .fp-tooltip.fp-left {
+    left: 20px;
+}
+#fp-nav ul li .fp-tooltip {
+    position: absolute;
+    top: -2px;
+    color: hsla(0, 100%, 65%, 0.75);
+    font-size: 14px;
+    font-family: "Neue Machina";
+    white-space: nowrap;
+    max-width: 220px;
+    overflow: hidden;
+    display: block;
+    opacity: 0;
+    width: 0;
+    cursor: pointer;
+}
