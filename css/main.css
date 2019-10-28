@@ -1,11 +1,9 @@
-@font-face:{
+@font-face{
     font-family: 'Neue Machina';
-    src: url('fonts/NeueMachina-Regular.eot') format('eot'),
-         url('fonts/NeueMachina-Regular.woff') format('woff'),
-         url('fonts/NeueMachina-Regular.woff2') format('woff2'),
-         url('fonts/NeueMachina-Regular.otf') format('opentype');
-         font-weight: regular;
-         font-style: regular;
+    src: url('../fonts/NeueMachina-Regular.eot') format('eot'),
+         url('../fonts/NeueMachina-Regular.woff') format('woff'),
+         url('../fonts/NeueMachina-Regular.woff2') format('woff2'),
+         url('../fonts/NeueMachina-Regular.otf') format('opentype');
 }
 
 * {
