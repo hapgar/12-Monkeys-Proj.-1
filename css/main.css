@@ -140,7 +140,7 @@ h1{
   text-align: left;
   position: absolute;
   left: 130px;
-  top:88px;
+  top:128px;
   color:#ff4d4d;
   font-weight: 600;
   font-size: 75px;
@@ -148,16 +148,29 @@ h1{
 
 p{
   font-family: "Neue Machina";
-  text-align: left;
+  text-align: justify;
   position: absolute;
   left: 130px;
-  top:200px;
+  top: 250px;
   color:#ff4d4d;
   font-weight: normal;
-  line-height: 25px;
+  line-height: 30px;
   font-size: 18px;
-  width: 495px;
+  width: 500px;
+
+}
+p2{
+  font-family: "Neue Machina";
   text-align: justify;
+  position: absolute;
+  left: 130px;
+  top: 300px;
+  color:#ff4d4d;
+  font-weight: normal;
+  line-height: 30px;
+  font-size: 18px;
+  width: 500px;
+
 }
 
 /* Heading Styles Landing*/
@@ -169,6 +182,17 @@ h2{
   font-weight: 600;
   font-size: 100px;
   text-shadow: 0 0 6px hsla(0, 100%, 65%, .7);
+}
+
+h3{
+  font-family: "Neue Machina";
+  text-align: left;
+  position: absolute;
+  left: 130px;
+  top:178px;
+  color:#ff4d4d;
+  font-weight: 600;
+  font-size: 75px;
 }
 
 /*image styling*/
@@ -196,6 +220,7 @@ h2{
 
 
 
+
 /*Section Styling*/
 
 
@@ -209,13 +234,26 @@ h2{
   object-fit: cover;
   position: relative;
   left: 680px;
-  bottom: 50px;
+  bottom: -0px;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+.philly{
+  width: 50%;
+  height: auto;
+  position: relative;
+  left: 680px;
+  bottom: 0px;
   display: inline-block;
   border-radius: 30px;
 }
 
 .timetravel:hover{
   box-shadow: 0 0 200px #FF7A4D, 0 0 300px #FF7A4D, 0 0 1000px #FF7A4D;
+}
+.philly:hover{
+  box-shadow: 0 0 200px #4DD2FF, 0 0 300px #4DD2FF, 0 0 1000px #4DD2FF;
 }
 
 .s2 {
