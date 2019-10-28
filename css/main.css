@@ -239,7 +239,28 @@ h3{
   border-radius: 30px;
 }
 
+.timetravel2{
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+  left: 680px;
+  bottom: -0px;
+  display: inline-block;
+  border-radius: 50px;
+}
+
 .philly{
+  width: 50%;
+  height: auto;
+  position: relative;
+  left: 680px;
+  bottom: 0px;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+.actors{
   width: 50%;
   height: auto;
   position: relative;
@@ -252,10 +273,18 @@ h3{
 .timetravel:hover{
   box-shadow: 0 0 200px #FF7A4D, 0 0 300px #FF7A4D, 0 0 1000px #FF7A4D;
 }
+
+.timetravel2:hover{
+  box-shadow: 0 0 200px #FF7A4D, 0 0 300px #FF7A4D, 0 0 1000px #FF7A4D;
+}
+
 .philly:hover{
   box-shadow: 0 0 200px #4DD2FF, 0 0 300px #4DD2FF, 0 0 1000px #4DD2FF;
 }
 
+.actors:hover{
+  box-shadow: 0 0 200px #FFD34D, 0 0 300px #FFD34D, 0 0 1000px #FFD34D;
+}
 .s2 {
   background-color: black;
   background-size: cover;
