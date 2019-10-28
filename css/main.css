@@ -4,8 +4,8 @@
          url('fonts/NeueMachina-Regular.woff') format('woff'),
          url('fonts/NeueMachina-Regular.woff2') format('woff2'),
          url('fonts/NeueMachina-Regular.otf') format('opentype');
-         font-weight: normal;
-         font-style:normal;
+         font-weight: regular;
+         font-style: regular;
 }
 
 * {
